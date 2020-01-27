@@ -292,6 +292,11 @@ a:focus, a:hover {
   color: #64a19d !important;
 }
 
+canvas {
+  position: relative;
+  z-index: -3 !important;
+}
+
 footer {
   padding: 5rem 0;
 }
