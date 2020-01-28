@@ -1,11 +1,9 @@
 function setup() {
   var canvas = createCanvas(windowWidth, windowHeight);
   // Move the canvas so it’s inside our <div id="sketch-holder">.
-  canvas.parent('projects');
+  canvas.parent('sketch-holder');
   //myCanvas.class('backgroundsketch');
   background(255, 0, 200);
-  canvas.position(0,0)
-  canvas.style('z-index','-1')
 }
 
 function windowResized() {
