@@ -4,6 +4,8 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/LICENSE)
  */
 
+
+
  #mainNav {
     min-height: 56px;
     background-color: #fff;
@@ -88,14 +90,22 @@
     background-attachment: scroll;*/
     background-size: cover;
 }
+
+ @font-face {
+    font-family: 'basier_square_monoregular';
+    src: url('fonts/basiersquaremono-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .masthead h1 {
-    font-family: 'Varela Round';
-    font-size: 2.5rem;
+    font-family: 'basier_square_monoregular';
+    /*font-size: 2.5rem;
     line-height: 2.5rem;
     letter-spacing: .8rem;
     background: -webkit-linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, 0));
-    /*-webkit-text-fill-color: transparent;*/
-    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;*/
 }
 .masthead h2 {
     max-width: 20rem;
@@ -123,7 +133,7 @@
 }.btn {
     box-shadow: 0 .1875rem .1875rem 0 rgba(0, 0, 0, .1)!important;
     padding: 1.25rem 2rem;
-    font-family: 'Varela Round';
+    font-family: 'basier_square_monoregular';
     font-size: 80%;
     text-transform: uppercase;
     letter-spacing: .15rem;
@@ -183,7 +193,7 @@
     box-shadow: 0 .1875rem .1875rem 0 rgba(0, 0, 0, .1)!important;
     padding: 1.25rem 2rem;
     height: auto;
-    font-family: 'Varela Round';
+    font-family: 'basier_square_monoregular';
     font-size: 80%;
     text-transform: uppercase;
     letter-spacing: .15rem;
@@ -198,7 +208,7 @@
 }
 .contact-section .card h4 {
     font-size: .8rem;
-    font-family: 'Varela Round';
+    font-family: 'basier_square_monoregular';
     text-transform: uppercase;
     letter-spacing: .15rem;
 }
@@ -226,7 +236,7 @@
     color: #fff;
 }
 body {
-    font-family: Nunito;
+    font-family: basier_square_monoregular;
     letter-spacing: .0625em;
 }
 a {
@@ -248,4 +258,7 @@ a:focus, a:hover {
 footer {
     padding: 5rem 0;
 }
+
+
+
 
